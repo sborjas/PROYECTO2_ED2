@@ -9,6 +9,7 @@
 class nodo {
 public:
     nodo(int d,int nR);
+    nodo *padre;
     nodo *izquierdo;
     nodo *derecho;
     int dato;

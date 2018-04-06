@@ -242,7 +242,7 @@ void avlarbol::imprimirArbol(nodo *r, int contador) {
     }
 }
 
-/*
+
 //FUNCIONES PARA ELIMINAR NODO DE UN ARBOL
 nodo *avlarbol::minimo(nodo *arbol){
     if(arbol==NULL){
@@ -276,7 +276,7 @@ void avlarbol::destruir(nodo *arbol){
 
 void avlarbol::eliminarNodo(nodo *arbol){
     if(arbol->izquierdo && arbol->derecho){
-        Nodo *menor = minimo(arbol->derecho);
+        nodo *menor = minimo(arbol->derecho);
         arbol->dato =  menor->dato;
         eliminarNodo(menor);
     }else if(arbol->izquierdo){
@@ -291,16 +291,29 @@ void avlarbol::eliminarNodo(nodo *arbol){
     }
 }
 
-void avlarbol::eliminar(Nodo *arbol,int dato){
+void avlarbol::eliminar(nodo *arbol,int dato){
+    nodo * nuevoPadre=arbol;
     if(arbol==NULL){
         return;
     }else if(dato < arbol->dato){
         eliminar(arbol->izquierdo,dato);
+        if((obtenerFE(arbol->derecho))-obtenerFE(arbol->izquierdo) ==2) {
+            if(dato>arbol->derecho->dato)
+                nuevoPadre=rotacionIzquierda(arbol);
+            else
+                nuevoPadre=rotacionDIzquierda(arbol);
+        }
     }else if(dato>arbol->dato){
         eliminar(arbol->derecho,dato);
+        if((obtenerFE(arbol->derecho))-obtenerFE(arbol->izquierdo) ==2) {
+            if(dato>arbol->derecho->dato)
+                nuevoPadre=rotacionIzquierda(arbol);
+            else
+                nuevoPadre=rotacionDIzquierda(arbol);
+        }
     }else{
         eliminarNodo(arbol);
     }
 }
 //FIN
- */
+

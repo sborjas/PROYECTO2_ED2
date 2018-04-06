@@ -38,7 +38,7 @@
       <file leaf-file-name="datafile.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datafile.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-153">
               <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
@@ -47,8 +47,8 @@
       <file leaf-file-name="avlarbol.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/avlarbol.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="-14">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding>
                 <element signature="e#113#134#0" expanded="true" />
               </folding>
@@ -68,8 +68,8 @@
       <file leaf-file-name="nodo.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodo.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="187">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -77,7 +77,7 @@
       <file leaf-file-name="nodo.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodo.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="289">
               <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
@@ -86,8 +86,11 @@
       <file leaf-file-name="avlarbol.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/avlarbol.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+            <state relative-caret-position="258">
+              <caret line="306" column="38" lean-forward="true" selection-start-line="306" selection-start-column="38" selection-end-line="306" selection-end-column="38" />
+              <folding>
+                <element signature="e#49#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,10 +104,10 @@
         <option value="$PROJECT_DIR$/datafile.h" />
         <option value="$PROJECT_DIR$/datafile.cpp" />
         <option value="$PROJECT_DIR$/nodo.cpp" />
-        <option value="$PROJECT_DIR$/nodo.h" />
         <option value="$PROJECT_DIR$/avlarbol.h" />
-        <option value="$PROJECT_DIR$/avlarbol.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/nodo.h" />
+        <option value="$PROJECT_DIR$/avlarbol.cpp" />
       </list>
     </option>
   </component>
@@ -182,12 +185,12 @@
       <workItem from="1522641245684" duration="12673000" />
       <workItem from="1522809530016" duration="166000" />
       <workItem from="1522809976181" duration="7799000" />
-      <workItem from="1522992126510" duration="300000" />
+      <workItem from="1522992126510" duration="3830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48287000" />
+    <option name="totallyTimeSpent" value="51817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -275,6 +278,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -562,20 +568,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/nodo.cpp" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/nodo.h" />
-    <entry file="file://$PROJECT_DIR$/datafile.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -586,24 +578,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datafile.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nodo.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="289">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datafile.cpp">
+    <entry file="file://$PROJECT_DIR$/nodo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafile.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avlarbol.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        <state relative-caret-position="-14">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
             <element signature="e#113#134#0" expanded="true" />
           </folding>
@@ -612,8 +618,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/avlarbol.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        <state relative-caret-position="258">
+          <caret line="306" column="38" lean-forward="true" selection-start-line="306" selection-start-column="38" selection-end-line="306" selection-end-column="38" />
+          <folding>
+            <element signature="e#49#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
