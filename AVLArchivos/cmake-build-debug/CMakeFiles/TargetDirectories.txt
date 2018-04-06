@@ -1,0 +1,3 @@
+C:/Users/Samuel Borjas/CLionProjects/PROYECTO2_ED2/AVLArchivos/cmake-build-debug/CMakeFiles/AVLArchivos.dir
+C:/Users/Samuel Borjas/CLionProjects/PROYECTO2_ED2/AVLArchivos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Samuel Borjas/CLionProjects/PROYECTO2_ED2/AVLArchivos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
